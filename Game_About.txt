@@ -32,4 +32,4 @@ POINTS SYSTEM:
 -Points are already preset according to the following formula: points = (no. of attempts allowed* 5 ) + (no. of hints allowed* 10)
 -For every wrong attempt and hint taken, 5 and 10 points are deducted respectively.
 
-GAME DATA: A csv file named - 'Player_stats' is kept in the same directory as the source code, containing data/statistics about the players who have played till then.
+GAME DATA: A csv file named - 'Player_stats' should be kept in the same directory as the source code, containing data/stats about the players who have played till then.
