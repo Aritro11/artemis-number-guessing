@@ -167,7 +167,7 @@ q1 = input().upper()
 
 if  q1 in ('YES','Y'):
     # Opening the Game_About file where about the game is stored
-    about_file = open(".//Python//Project_Game//Game_About.txt")
+    about_file = open(".//Game_About.txt")
     s = about_file.read()
     about_file.close()
     print(s)
@@ -405,7 +405,7 @@ while True:
     # [name,game mode,difficulty,guess range,hints,attempts,W/L,points,the Random no,date]
     
     # Opening the file used to store player info
-    p_file = open('.//Python//Project_Game//Player_stats.csv','a')
+    p_file = open('.//Player_stats.csv','a')
     p_writer = csv.writer(p_file)
     info_list = [p_name,g_mode,diff,g_range,h_used,i,status,pts,ran,date]
     # storing the player info for one round of game into the Player_stats file
